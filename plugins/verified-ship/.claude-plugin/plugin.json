@@ -1,0 +1,8 @@
+{
+  "name": "verified-ship",
+  "description": "Deliver code through scoped staging, repository-native checks, commit, push, and verified CI when the user authorizes release.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Community Maintainers"
+  }
+}

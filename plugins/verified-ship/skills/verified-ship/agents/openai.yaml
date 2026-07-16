@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verified Ship"
+  short_description: "Run a disciplined code delivery workflow"
+  default_prompt: "Use $verified-ship to deliver these changes with scoped staging, repository checks, and verified CI."

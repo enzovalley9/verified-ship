@@ -1,0 +1,34 @@
+{
+  "name": "verified-ship",
+  "version": "0.1.0",
+  "description": "Deliver code through scoped staging, repository-native checks, commit, push, and verified CI when the user authorizes release.",
+  "author": {
+    "name": "Community Maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "ci",
+    "delivery",
+    "tests",
+    "release"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Verified Ship",
+    "shortDescription": "Run a disciplined code delivery workflow",
+    "longDescription": "Discovers repository checks, preserves unrelated work, stages only intended files, commits and pushes only with authorization, and verifies the resulting CI run.",
+    "developerName": "Community Maintainers",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Ship these changes and verify CI.",
+      "Prepare this working tree for delivery.",
+      "Run the repository checks and deliver this change."
+    ],
+    "brandColor": "#16A34A"
+  }
+}

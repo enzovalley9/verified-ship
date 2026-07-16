@@ -1,0 +1,15 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "verified-ship",
+  "description": "A portable agent skill for scoped code delivery and verified CI.",
+  "owner": {
+    "name": "Community Maintainers"
+  },
+  "plugins": [
+    {
+      "name": "verified-ship",
+      "source": "./plugins/verified-ship",
+      "description": "Deliver code through scoped staging, repository-native checks, commit, push, and verified CI when the user authorizes release."
+    }
+  ]
+}
